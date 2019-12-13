@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 7, Part 1</title>
+    <title>Interactive e-card</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,27 +18,28 @@
   </head>
 
   <body>
+    <div id="content">
+      <h1 id="annoying_banner">Congratulations you won a free vacation!!!!</h1>
+      <h2>Click a curtain to reveal your destination!!</h2>
 
-    <h1>Week 7, Part 1</h1>
+      <div class="board">
 
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
+        <div class="curtain">
+  			     <div class="square alt" id="curtain-1"></div>
+             <div class="prize" id="prize-1"></div>
+        </div>
 
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
+        <div class="curtain">
+  			     <div class="square alt" id="curtain-2"></div>
+             <div class="prize" id="prize-2"></div>
+        </div>
 
-		<button id="my_button" class="btn btn-primary">Button</button>
+        <div id="where_to">
+          Where Will You Go?
+        </div>
 
+  		</div>
+    </content>
 	</body>
 
 </html>

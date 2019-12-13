@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #cccccc;
+  background-image: url("https://media1.tenor.com/images/1442baf5b66b2edf9634add92d999c58/tenor.gif?itemid=11209519"); }
+
+#content {
+  border: 1px solid grey;
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 20px; }
+
+h2 {
+  margin: 40px; }
+
+.board {
+  background: white;
+  width: 1250px;
+  height: 950px;
+  margin-bottom: 20px; }
+
+.curtain {
+  position: relative;
+  width: 508px;
+  height: 383px;
+  display: inline-block; }
+
+.prize {
+  z-index: 1;
+  width: 500px;
+  height: 375px;
+  background-size: 500px 375px;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+#prize-1 {
+  background-image: url("../images/morocco.jpg"); }
+
+#prize-2 {
+  background-image: url("../images/tulum.jpg"); }
+
+#where_to {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.square {
+  z-index: 2;
+  width: 500px;
+  height: 375px;
+  background-color: #555599;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+/*
+&.red {
+	background: red;
+}
+
+&.green {
+	background: green;
+}
+*/
+.animal {
+  width: 100px;
+  height: auto; }
